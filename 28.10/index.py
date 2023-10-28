@@ -15,3 +15,13 @@ elif a==b:
     print('a is equal to b')
 else:
     print('Other case')
+
+# String Comparison
+
+strA = 'hello'
+strB = 'hello'
+
+if strA==strB:
+    print('Strings are the same')
+elif strA!=strB:
+    print('Strings are not the same')
