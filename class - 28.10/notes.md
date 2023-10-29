@@ -7,7 +7,7 @@
 -   Language of data science,
 -   Endorses Object Programming,
 
-## **Notes**
+## **Fundamentals**
 
 -   Print methos works like console.log in JS,
 -   '+' operathor is used for string contatination,
@@ -21,13 +21,15 @@ Just like in JavaScript data types are declared dynamically and variables can be
 Variable naming conventions
 
 **Accepted**
-Variable names are case-sensitive. Accepted variable names are listed below. Can use camelCase.
+Variable names are case-sensitive. Accepted variable names are listed below. Can use camelCase, Snake_case.
 
 ```py
 # Legal Variable Names
 myvar = 'John'
 my_var = 'John'
 _my_var = 'John'
+myVar = 'John'
+My_var = 'John'
 myVar = 'John'
 MYVAR = 'John'
 myvar2 = 'John'
@@ -48,7 +50,7 @@ my var = 'John'
 **Example**
 
 Example of variables declaration, print and input methods.
-Comments in Python are created with '#' character in fron of it.
+Comments in Python are created with '#' character in front of it comment.
 
 ```py
 # Example
@@ -81,12 +83,22 @@ We don't use any kind of keyword for creating variables, we just need to put dow
 
 Exclamation mark is the 'not' operator.
 
-### **Weak Typing**
+#### **Weak Typing**
 
 We cannot compare two different data types, this will cause an TypeError. We can compare two same data types.
+
+### **Lists**
+
+Lists are arrays in Python
+
+```py
+list = [3, 45, 567, 'kitty']
+print(list)
+```
 
 ## **Do To**
 
 -   Pyhon basics
 -   How Python works on low level
 -   ASCII Table
+-   Notepad++
