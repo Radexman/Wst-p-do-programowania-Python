@@ -150,3 +150,69 @@ To understand this behaviour a little better we can use and truth table.
 And here is the table for the or logical operator
 
 ![or truth table](./assets/or-truth-table.png)
+
+Order of the operands doesn't matter.
+
+## **String Methods**
+
+We can modify strings by various methods.
+We can check length of the string by using len() method.
+
+Variable z is an object and by dot operator we can invoke some methods.
+
+With .copitalize() method we can add the capital letter to the first letter of the string.
+
+With .upper() we can convert the string to uppercase and with .lower() we convert it to lowercase.
+
+```py
+
+# length of string
+z = 'cat'
+print(len(z)) # 3
+
+# cappitalize
+print(z.capitalize()) # Cat
+
+# to upper case
+print(z.upper()) # CAT
+
+# to lower case
+print(z.lower()) # cat
+```
+
+## **Index of an string**
+
+We can select single index of an string just like in the JavaScript.
+
+[0:2] syntax will work just like .slice in JS.
+
+**warning** this method will print only two characters. Second index will nox be taken into considiration. In JS whis would print three characters.
+
+```py
+z = 'cat'
+print(z[0]) # c
+
+print(z[0:2]) # ca
+
+# Both of these methods will print full string
+print(z[0:len(z)]) # cat
+print(z[:]) # cat
+
+# Reverse string
+print(z[::-1]) #tac
+```
+
+By adding next colon we will specify the step which we can jump by when working with strings. By adding -1 we will simply reverse a string.
+
+We can use .split() mothod to modify strings. This methos will return list (array in JS).
+
+```py
+z = 'today was nice weather'
+print(z.split(' ')) # ['today', 'was', 'nice', 'weather']
+```
+
+## **To Do**
+
+-   What is XOR
+-   Indexing in Python
+-   DisplayLink (optional)
