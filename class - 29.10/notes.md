@@ -213,6 +213,6 @@ print(z.split(' ')) # ['today', 'was', 'nice', 'weather']
 
 ## **To Do**
 
--   What is XOR
--   Indexing in Python
--   DisplayLink (optional)
+-   [ ] What is XOR
+-   [ ] Indexing in Python
+-   [ ] DisplayLink (optional)

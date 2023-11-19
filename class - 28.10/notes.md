@@ -98,7 +98,7 @@ print(list)
 
 ## **Do To**
 
--   Pyhon basics
--   How Python works on low level
--   ASCII Table
--   Notepad++
+-   [ ] Pyhon basics
+-   [ ] How Python works on low level
+-   [ ] ASCII Table
+-   [ ] Notepad++
